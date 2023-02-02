@@ -29,6 +29,17 @@ public class StudentRepository
          return null;
     }
 
+//  public Student getStudent(int id,String name)
+//    {
+//        if(studentDb.containsKey(id))
+//        {
+//           String dupl=studentDb.get(id).getName();
+////         String searchname=  dupl.getName();
+//
+//         if(dupl.equals(name))return studentDb.get(id);
+//        }
+//        return null;
+//    }
 
     public String updateStudent(int id,int age)
     {
